@@ -1,0 +1,7 @@
+- name: files-present-action
+  # You may pin to the exact commit or the version.
+  # uses: JJ/files-present-action@529a6241885c490eea11f88b5a27cf99cf92f95b
+  uses: JJ/files-present-action@releases/v1
+  with:
+    # Array describing the files
+    files: # optional
